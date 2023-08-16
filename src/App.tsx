@@ -2,8 +2,8 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="w-screen h-screen flex justify-center items-center text-3xl font-bold">
-      Sorry! Website in development.
+    <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-screen h-screen flex justify-center items-center text-5xl text-white font-bold">
+      Website coming soon!
     </div>
   );
 }
