@@ -17,7 +17,7 @@ export const Language = () => {
 	return (
 		<div ref={ref} className="flex relative items-center gap-[5px] text-base cursor-pointer hidden lg:flex" onClick={toggle}>
 			<MdOutlineLanguage className="text-[24px] text-primary" />
-			<span className="hover:text-primary capitalize">{i18n.resolvedLanguage}</span>
+			<span className="mt-px hover:text-primary capitalize">{i18n.resolvedLanguage}</span>
 			{isOpened && (
 				<div className="absolute transition-all duration-500 top-[32px] right-0">
 					<ul className="flex flex-col gap-[7px]">
